@@ -37,6 +37,8 @@ input {
 
 .buttons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -56,4 +58,9 @@ button {
 
 #backend-btn {
   background-color: #0c8b2c;
+}
+
+#copy-btn {
+  background-color: #ededed;
+  color: black;
 }
